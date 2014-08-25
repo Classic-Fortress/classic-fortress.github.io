@@ -1,0 +1,155 @@
+/* set/adjust colours for this style
+ ---------------------------------- */
+/* blocks
+ ---------------------------------- */
+.block_header {
+	clear: left;
+	width: 100%;
+}
+.block_title {
+	color: #FFFFFF;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 1em;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	line-height: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.block_header a { 
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.block_header a:hover { 
+	color: #232323;
+	text-shadow: #3180db 0px 0px 3px; 
+	text-decoration: none; 
+}
+.block_header a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.forumbg, .forabg {
+	color: #000000;
+}
+
+/* for all block backgrounds */
+.block_wrapper {
+	background-color: #5D5F62;
+	background-image: url("./images/bg_list.gif");
+	background-repeat: repeat-x;
+	/* set gap between blocks i.e. space at bottom */
+	margin-bottom: 10px;
+	/* padd area inside, note setting to 1 will produce square corners, max is 5px MUST BE 5 FOR CORNERS */
+	padding: 0 5px 0 5px;
+}
+
+.block_bg, .block_body {
+	background-color: #5D5F62;
+	background-image: url("./images/bg_list.gif");
+	background-repeat: repeat-x;
+	margin-bottom: 10px;/*? set gap between blocks at bottom ?*/
+	padding: 0 5px 0 5px;/*? padd area inside, note setting to 1 will produce square corners, max is 5px MUST BE 5 FOR CORNERS?*/
+	clear: both;
+}
+
+.block_data {
+	padding:0px;
+}
+
+.box {
+	background: #F3F4F4 none repeat-x 0 0;
+	background-repeat: repeat;
+	text-align: left;
+	margin-top: 5px;
+	padding: 2px 2px 2px 2px;
+	overflow: hidden;
+	width: auto;
+	clear: both;
+	border: solid 1px #F3F4F4;
+}
+
+.bg1a {
+	background-color: #F1F2F2;
+	padding: 5px;
+	border: 1px solid #F1F2F2;
+}
+.bg2a {
+	background-color: #E8E9EB;
+	padding: 5px;
+	border: 1px solid #E8E9EB;
+}
+.bg3a {
+	background-color: #D9DADC;
+	padding: 5px;
+	border: 1px solid #D9DADC;
+}
+
+.forabg .header a:link {
+	color: #FFFFFF;
+}
+.forabg .header a:hover {
+	color: #232323;
+	text-shadow: #3180db 0px 0px 3px;
+}
+
+.list_new_pre_beata {
+	color: red;
+	font-weight: bold;
+	font-size: 10px;
+}
+.list_pre_beat {
+	color: gray;
+	font-weight: bold;
+	font-size: 10px;
+}
+.list_beta {
+	color: orange;
+	font-weight: bold;
+	font-size: 10px;
+}
+.list_pre_release {
+	color: blue;
+	font-weight: bold;
+	font-size: 10px;
+}
+.list_release {
+	color: green;
+	font-weight: bold;
+	font-size: 10px;
+	padding: 2px;
+}
+.orange {
+	color: #D29D00;
+	font-weight: bold;
+}
+.green {
+	color: #008000;
+	font-weight: bold;
+}
+.red {
+	color: #C31818;
+	font-weight: bold;
+}
+.gray {
+	color: #BABABA;
+	font-weight: bold;
+}
+.blue {
+	color: #18609C;
+	font-weight: bold;
+}
+.date {
+	color: #027AB6;
+	font-weight: bold;
+}
+
+/* Portal css classes */
+.clear {
+	clear: both;
+}
+
+.content img {
+	max-width: 500px;
+}

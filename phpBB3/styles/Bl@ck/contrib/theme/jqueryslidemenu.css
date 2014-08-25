@@ -1,0 +1,131 @@
+#main_nav_bg {
+background:url("{T_THEME_PATH}/images/menu.png") repeat-x 0 0;
+height:30px;
+margin:0!important;
+min-width:1000px;
+padding:0!important;
+}
+
+#main_navigation {
+float:left;
+font-family:Tahoma, sans-serif;
+font-size:11px;
+min-width:900px;
+position:absolute;
+text-transform:uppercase;
+top:0;
+}
+
+* html .jqueryslidemenu ul li a {
+display:inline-block;
+}
+
+.headerbar {
+background:none;
+color:transparent;
+padding:0;
+}
+
+.jqueryslidemenu {
+font:11px Verdana;
+margin:0 auto;
+z-index:22;
+}
+
+.jqueryslidemenu .downarrowclass {
+position:absolute;
+right:7px;
+top:12px;
+}
+
+.jqueryslidemenu .rightarrowclass {
+position:absolute;
+right:5px;
+top:6px;
+}
+
+.jqueryslidemenu ul {
+font:11px Verdana;
+line-height:normal;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+.jqueryslidemenu ul li {
+display:inline;
+float:left;
+font:11px Verdana;
+line-height:normal;
+position:relative;
+text-align:right;
+}
+
+.jqueryslidemenu ul li a {
+background:transparent;
+display:block;
+padding:9px 10px;
+text-decoration:none;
+}
+
+.jqueryslidemenu ul li a,.jqueryslidemenu ul li a:link,.jqueryslidemenu ul li a:visited {
+color:#fff;
+}
+
+.jqueryslidemenu ul li a:hover {
+background:transparent;
+color:#3180db;
+text-decoration:underline;
+text-shadow:#3180db 0 0 5px;
+}
+
+.jqueryslidemenu ul li ul {
+display:block;
+left:0;
+position:absolute;
+visibility:hidden;
+}
+
+.jqueryslidemenu ul li ul li {
+display:list-item;
+float:none;
+}
+
+.jqueryslidemenu ul li ul li a {
+margin:0;
+padding:6px;
+width:160px;
+}
+
+.jqueryslidemenu ul li ul li a:hover {
+background:url("{T_THEME_PATH}/images/submenu.png") repeat-x;
+color:#3180db;
+text-decoration:underline;
+text-shadow:#3180db 0 0 5px;
+}
+
+.jqueryslidemenu ul li ul li ul {
+top:0;
+}
+
+.jqueryslidemenu ul ul li a {
+background:url("{T_THEME_PATH}/images/submenu.png") repeat-x;
+}
+
+.jqueryslidemenu ul ul li a:hover {
+color:#3180db;
+text-decoration:underline;
+text-shadow:#3180db 0 0 5px;
+}
+
+body {
+padding:0;
+}
+
+.headerbar {
+padding:0!important;
+}
+
+a#logo {
+padding:0;
+}

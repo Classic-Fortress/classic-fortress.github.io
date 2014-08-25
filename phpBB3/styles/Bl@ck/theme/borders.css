@@ -1,0 +1,79 @@
+/* borders.css
+-------------------------------------------------*/
+#wrap {
+margin:0 auto;
+padding:0 20px;
+}
+
+.bottom-center {
+background:url("{T_THEME_PATH}/images/bg_footers.gif") 0 0;
+font-size:2px;
+height:20px;
+margin:-20px 20px;
+}
+
+.bottom-left {
+background:url("{T_THEME_PATH}/images/corners_bottom.png") 0 0 no-repeat;
+margin-left:1px;
+margin-right:0;
+margin-top:0;
+}
+
+.bottom-right {
+background:url("{T_THEME_PATH}/images/corners_bottom.png") 100% -20px no-repeat;
+margin-left:0;
+margin-right:1px;
+margin-top:-20px;
+}
+
+.inside {
+background:#FFF;
+border-left:0 solid #000;
+border-right:0 solid #000;
+color:#000;
+margin-left:7px;
+margin-right:4px;
+padding-left:0;
+padding-right:0;
+}
+
+.nobottomgap {
+margin-bottom:0;
+}
+
+.notopgap {
+margin-top:0;
+}
+
+.outside {
+margin:0 auto;
+max-width:1360px;
+min-width:1000px;
+width:90%;
+}
+
+.top-center {
+background:url("{T_THEME_PATH}/images/bg_headers.gif") 0 0;
+font-size:2px;
+height:20px;
+margin:-20px 20px;
+}
+
+.top-left {
+background:url("{T_THEME_PATH}/images/corners_top.png") no-repeat 0 -20px;
+margin-left:1px;
+margin-right:9px;
+margin-top:0;
+}
+
+.top-left,.top-right,.bottom-left,.bottom-right {
+font-size:2px;
+height:20px;
+}
+
+.top-right {
+background:url("{T_THEME_PATH}/images/corners_top.png") no-repeat 100% 0;
+margin-left:0;
+margin-right:1px;
+margin-top:-9px;
+}
