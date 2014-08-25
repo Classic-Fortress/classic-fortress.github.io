@@ -606,8 +606,8 @@ table.table1 .flag { text-align: center; width: 30px; }
 
 .wrapper {
   border-radius: 5px;
-  border: solid 2px #12A2EA;
-  background: #ECF3F7 none repeat-x 0 0;
+  border: solid 2px #FFFFFF;
+  background: #FFFFFF none repeat-x 0 0;
   margin-bottom: 4px;
   padding: 5px;
   clear: both;
