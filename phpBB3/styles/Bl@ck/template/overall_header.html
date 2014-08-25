@@ -145,7 +145,14 @@
 
 			<ul class="linklist navlinks">
 			<!-- IF STARGATE -->
-				<li class="icon-home"><a href="{U_PORTAL}" accesskey="h">{L_PORTAL}</a> &bull; <a href="{U_INDEX}" accesskey="h">{L_INDEX}</a><!-- BEGIN navlinks --> <strong>&#8249;</strong> <a href="{navlinks.U_VIEW_FORUM}">{navlinks.FORUM_NAME}</a><!-- END navlinks --></li>
+				<li class="icon-home">
+				<a href="{U_PORTAL}">{L_PORTAL}</a> | 
+				<a href="portal.php?page=getstart">Getting Started</a> |
+				<a href="https://github.com/Classic-Fortress/server-qwprogs/wiki">Wiki</a> |
+				<a href="https://github.com/Classic-Fortress">GitHub</a> |		
+				<a href="portal.php?page=chat">IRC</a> |
+				<a href="{U_INDEX}" accesskey="h">{L_INDEX}</a><!-- BEGIN navlinks --> <strong>&#8249;</strong> <a href="{navlinks.U_VIEW_FORUM}">{navlinks.FORUM_NAME}</a><!-- END navlinks --></li>
+			
 			<!-- ELSE -->
 				<li class="icon-home"><a href="{U_INDEX}" accesskey="h">{L_INDEX}</a> <!-- BEGIN navlinks --> <strong>&#8249;</strong> <a href="{navlinks.U_VIEW_FORUM}">{navlinks.FORUM_NAME}</a><!-- END navlinks --></li>
 			<!-- ENDIF -->
