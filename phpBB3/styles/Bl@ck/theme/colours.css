@@ -5,7 +5,7 @@ Colours and backgrounds for common.css
 
 html, body {
 	color: #68696D;
-	background-color: #393939;
+	background-color: #515a63;
 	background: url("{T_THEME_PATH}/images/lights.jpg") repeat-x top center #767a7f fixed;
 }
 
