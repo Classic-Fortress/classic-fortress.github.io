@@ -181,7 +181,7 @@ $lang = array_merge($lang, array(
 	'FONT_SMALL'			=> 'Small',
 	'FONT_TINY'				=> 'Tiny',
 
-	'FORUM_PORTAL'			=> 'Portal',
+	'FORUM_PORTAL'			=> 'Home',
 	'FORUM_RULES'			=> 'Forum Rules',
 	'FULL_SEARCH'			=> 'Full Search: ',
 
@@ -489,7 +489,7 @@ $lang = array_merge($lang, array(
 	'PLEASE_CONFIRM'   => 'Please confirm.',
 	'PERMANENT'        => 'Save my choice:',
 	'PICTURES'         => 'Pictures',
-	'PORTAL'           => 'Portal',
+	'PORTAL'           => 'Home',
 	'PERCENT'          => 'Percent',
 	'POSTER'           => 'Poster',
 	'PROGRESS'         => 'Progress',
