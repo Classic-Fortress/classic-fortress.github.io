@@ -27,13 +27,13 @@
 
     <h1>{{{ $topic->title }}} {!! $topic->isSolved() ? '<i class="fa fa-check-circle green" title="Answered"></i>':'' !!}</h1>
 
-    @include('Forum.topic._parts.entry', ['message' => $topic->firstPost()])
+    @include('forum.topic._parts.entry', ['message' => $topic->firstPost()])
 
     @if(Auth::check())
-        @include('Forum.topic._parts.reply')
+        @include('forum.topic._parts.reply')
     @endif
 
     @foreach(($topic->messages[0]->answer==1?$topic->messages->forget(1):$topic->messages->forget(0)) as $message)
-        @include('Forum.topic._parts.entry', ['message' => $message])
+        @include('forum.topic._parts.entry', ['message' => $message])
     @endforeach
 @stop
