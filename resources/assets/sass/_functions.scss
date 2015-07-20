@@ -1,0 +1,15 @@
+@function color($key) {
+  @if map-has-key($colors, $key) {
+    @return map-get($colors, $key)
+  }
+  @warn "unknown color!";
+  @return null;
+}
+
+@function size($key) {
+  @if map-has-key($size, $key) {
+    @return map-get($size, $key)
+  }
+  @warn "unknown size!";
+  @return null;
+}

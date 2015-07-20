@@ -1,0 +1,23 @@
+/* Fonts */
+$mainFont: 'Inconsolata', ;
+
+/* Colors */
+$colors: (
+        background: #131212,
+        darkerbg: darken(#202322, 5%),
+        module: rgba(10,10,10,0.4),
+        navBG: #0b0b0b,
+        text: #e9d2b9,
+        link: #c57c38,
+        linkHover: #fcca93,
+        brand: #c57c38,
+        forumAnswer: #0ebd5f,
+        experience: #5791c3,
+        danger: #db2133
+);
+
+$size: (
+        sm: 768px,
+        md: 992px,
+        lg: 1200px
+);

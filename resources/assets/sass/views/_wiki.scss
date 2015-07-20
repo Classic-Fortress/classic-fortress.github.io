@@ -1,0 +1,74 @@
+.wiki {
+  position: relative;
+
+  code {
+    background-color: lighten(color(module), 10%);
+    color: lighten(color(brand), 20%);
+  }
+  table {
+    background-color: transparent;
+  }
+  caption {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #777;
+    text-align: left;
+  }
+  th {
+    text-align: left;
+  }
+  table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  table > thead > tr > th,
+  table > tbody > tr > th,
+  table > tfoot > tr > th,
+  table > thead > tr > td,
+  table > tbody > tr > td,
+  table > tfoot > tr > td {
+    padding: 1px 0;
+    line-height: 1.42857143;
+    vertical-align: top;
+//    border-top: 1px solid #3a3a3a;
+  }
+  table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #3a3a3a;
+  }
+  table > caption + thead > tr:first-child > th,
+  table > colgroup + thead > tr:first-child > th,
+  table > thead:first-child > tr:first-child > th,
+  table > caption + thead > tr:first-child > td,
+  table > colgroup + thead > tr:first-child > td,
+  table > thead:first-child > tr:first-child > td {
+    border-top: 0;
+  }
+  table > tbody + tbody {
+    border-top: 2px solid #ddd;
+  }
+
+  .wiki-sidebar {
+    top: -12px;
+    right: -12px;
+    position: absolute;
+    display: inline-block;
+    background-color: color(module);
+    padding: 5px;
+  }
+  .toggle-wiki-sidebar {
+    cursor: pointer;
+  }
+
+  blockquote {
+    color: #808080;
+    font-style: italic;
+    border-left-color: #272727;
+    font-size: 14px;
+  }
+  pre {
+    background-color: lighten(color(module), 10%);
+    border: 0;
+  }
+}

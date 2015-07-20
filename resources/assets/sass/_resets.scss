@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+a,a:focus {
+  color: color(link);
+  outline: none;
+  text-decoration: none;
+}
+a:active {
+  color: transparent;
+}
+a:hover {
+  color: color(linkHover);
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5 {
+  font-family: bebasneue;
+  font-weight: 300;
+  color: whitesmoke;
+  margin-top: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+table {
+  width: 100%;
+}
+
+input[type]:not([type=submit]):not([type=file]), textarea {
+  //  display: inline-block;
+  border: 0;
+  font-size: 12px;
+  padding: 2px 5px 2px 5px;
+  outline: none;
+  color: #000;
+
+
+}
+select {
+  color: black;
+}
+input[type=file] {
+  background-color: transparent;
+  //  display: inline-block;
+  border: 0;
+  font-size: 12px;
+  padding: 2px 5px 2px 0;
+  outline: none;
+  color: #fff;
+}
+textarea {
+  width: 100%;
+  height: 140px;
+}
+input[type=submit], button, .button {
+  background-color: #414141;
+  color: white;
+  padding: 3px 5px;
+  border: 0;
+  height: 24px;
+
+  &:hover {
+    text-decoration: none;
+  }
+  &.no-bg {
+    background-color: transparent;
+    color: color(brand);
+    &:hover {
+      color: #fcca93;
+    }
+  }
+  &.warning-btn {
+    background-color: #842317;
+  }
+  &.newtopic {
+    background-color: color(forumAnswer);
+    &:hover,&:active {
+      color: #ffffff;
+    }
+  }
+}
+label {
+  width: 150px;
+}
+hr {
+  margin: 5px 0;
+  border-color: lighten(color(module), 20%);
+}

@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: CF
+        psr4_prefix: CF
+        src_path: app
