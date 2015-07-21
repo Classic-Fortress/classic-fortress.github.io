@@ -9,7 +9,7 @@
         </div>
         <div class="col-sm-5 rt">
             @if(checkAuth())
-                <span><i class="fa fa-newspaper-o"></i></span>
+                {{--<span><i class="fa fa-newspaper-o"></i></span>--}}
                 <a title="Edit topic" href="{{ route('forum.topic.message.edit', ['forum' => $forum->slug, 'id' => $topic->id, 'topic' => $topic->slug, 'messageId' => $topic->firstPost()]) }}">
                     <i class="fa fa-pencil-square"></i>
                 </a>
@@ -18,7 +18,7 @@
                 <form method="post" class="inline" action="{{ route('forum.topic.message.destroy', ['forum' => $forum->slug, 'id' => $topic->id, 'topic' => $topic->slug, 'messageId' => $topic->firstPost()->id])}}">
                     <input type="hidden" name="_method" value="DELETE">
                     {!! csrf_field() !!}
-                    <button class="no-bg p0 autoh" title="Delete topic"  onclick="javascript:return confirm('Are you absolutely sure you want to remove this post?')"><i class="fa fa-times-circle danger"></i></button>
+                    <button class="no-bg p0 autoh" title="Delete topic"  onclick="javascript:return confirm('Are you absolutely sure you want to remove this post?')"><i class="fa fa-trash danger"></i></button>
                 </form>
                 @endif
             @endif

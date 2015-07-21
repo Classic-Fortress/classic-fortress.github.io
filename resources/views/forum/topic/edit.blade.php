@@ -11,7 +11,7 @@
             <form method="post" class="inline" action="{{ route('forum.topic.message.destroy', ['forum' => $forum->slug, 'id' => $topic->id, 'topic' => $topic->slug, 'messageId' => $message->id])}}">
                 <input type="hidden" name="_method" value="DELETE">
                 {!! csrf_field() !!}
-                <button class="no-bg p0 autoh" title="{{ $message->isMainPost() ? 'Delete topic':'Delete message' }}" onclick="javascript:return confirm('Are you absolutely sure you want to remove this post?')"><i class="fa fa-times-circle danger"></i></button>
+                <button class="no-bg p0 autoh" title="{{ $message->isMainPost() ? 'Delete topic':'Delete message' }}" onclick="javascript:return confirm('Are you absolutely sure you want to remove this post?')"><i class="fa fa-trash danger"></i></button>
             </form>
         </div>
     </div>
