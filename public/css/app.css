@@ -9210,6 +9210,9 @@ header .class {
   header .class.class__sentry {
     left: 470px;
     bottom: 241px; }
+  header .class.class__dispenser {
+    left: 220px;
+    bottom: 242px; }
 
 header .transparentmapper {
   position: absolute;

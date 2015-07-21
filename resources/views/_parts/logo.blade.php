@@ -1,6 +1,7 @@
 <div class="top">
     <map name="map">
-        <area data-class="sentry" shape="rect" coords="470, 31, 501, 53" href="/wiki/Sentry-Gun" title="Sentry Gun" />
+        <area data-class="dispenser" shape="rect" coords="220, 34, 231, 56" href="/wiki/Dispenser" title="Dispenser" />
+        <area data-class="sentry" shape="rect" coords="470, 31, 501, 56" href="/wiki/Sentry-Gun" title="Sentry Gun" />
         <area data-class="spy" shape="poly" coords="593, 75, 598, 97, 575, 103, 563, 121, 556, 138, 571, 160, 582, 164, 587, 173, 593, 174, 572, 225, 572, 260, 548, 288, 559, 295, 592, 284, 598, 227, 618, 192, 636, 250, 647, 251, 643, 266, 654, 268, 669, 259, 653, 228, 654, 196, 647, 160, 654, 156, 659, 127, 626, 95, 625, 67, 609, 67" href="/wiki/Spy" title="Spy" />
         <area data-class="pyroman" shape="poly" coords="527, 88, 527, 108, 506, 112, 493, 135, 493, 147, 524, 161, 505, 218, 507, 239, 488, 264, 500, 270, 525, 256, 526, 213, 544, 184, 561, 249, 571, 248, 569, 230, 573, 213, 568, 163, 552, 137, 563, 115, 551, 108, 551, 85, 542, 81" href="/wiki/Pyro" title="Pyroman" />
         <area data-class="engineer" shape="poly" coords="459, 79, 463, 98, 440, 104, 435, 112, 453, 134, 450, 149, 460, 159, 445, 195, 449, 232, 454, 239, 464, 197, 464, 197, 482, 175, 499, 239, 504, 238, 502, 213, 509, 203, 502, 154, 490, 148, 490, 132, 502, 112, 485, 99, 485, 75, 470, 73" href="/wiki/Engineer" title="Engineer" />
@@ -27,6 +28,7 @@
         <div class="class class__pyroman"><img src="/images/classPyroman.png" alt=""/></div>
         <div class="class class__spy"><img src="/images/classSpy.png" alt=""/></div>
         <div class="class class__sentry class__def"><img src="/images/sentry.png" alt=""/></div>
+        <div class="class class__dispenser class__def"><img src="/images/header/dispenser.png" alt=""/></div>
     </div>
 
 </div>
