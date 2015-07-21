@@ -18,16 +18,16 @@
 
     <div class="classes">
         <img src="/images/transparent.png" alt="" usemap="#map" height="100%" width="100%" class="transparentmapper"/>
-        <div class="class class__medic"><img src="/images/classMedic.png" alt=""/></div>
-        <div class="class class__demoman class__def"><img src="/images/classDemoman.png" alt=""/></div>
-        <div class="class class__soldier"><img src="/images/classSoldier.png" alt=""/></div>
-        <div class="class class__hwguy class__def"><img src="/images/classHWGuy.png" alt=""/></div>
-        <div class="class class__sniper class__def"><img src="/images/classSniper.png" alt=""/></div>
-        <div class="class class__scout"><img src="/images/classScout.png" alt=""/></div>
-        <div class="class class__engineer"><img src="/images/classEngineer.png" alt=""/></div>
-        <div class="class class__pyroman"><img src="/images/classPyroman.png" alt=""/></div>
-        <div class="class class__spy"><img src="/images/classSpy.png" alt=""/></div>
-        <div class="class class__sentry class__def"><img src="/images/sentry.png" alt=""/></div>
+        <div class="class class__medic"><img src="/images/header/classMedic.png" alt=""/></div>
+        <div class="class class__demoman class__def"><img src="/images/header/classDemoman.png" alt=""/></div>
+        <div class="class class__soldier"><img src="/images/header/classSoldier.png" alt=""/></div>
+        <div class="class class__hwguy class__def"><img src="/images/header/classHWGuy.png" alt=""/></div>
+        <div class="class class__sniper class__def"><img src="/images/header/classSniper.png" alt=""/></div>
+        <div class="class class__scout"><img src="/images/header/classScout.png" alt=""/></div>
+        <div class="class class__engineer"><img src="/images/header/classEngineer.png" alt=""/></div>
+        <div class="class class__pyroman"><img src="/images/header/classPyroman.png" alt=""/></div>
+        <div class="class class__spy"><img src="/images/header/classSpy.png" alt=""/></div>
+        <div class="class class__sentry class__def"><img src="/images/header/sentry.png" alt=""/></div>
         <div class="class class__dispenser class__def"><img src="/images/header/dispenser.png" alt=""/></div>
     </div>
 
