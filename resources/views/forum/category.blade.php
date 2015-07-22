@@ -7,8 +7,8 @@
         <div class="col-sm-7">
             <h4><a href="{{ route('forum') }}">Forum</a> &raquo; {{ $forum->name }}</h4>
         </div>
-        @if(checkAuth())
-            <div class="col-sm-5 rt">
+        @if(checkAdmin() or checkModerator())
+            <div class="col-sm-5 rt forum-controls">
                 <a title="Edit forum" href="{{ route('forum.edit', ['forum' => $forum->slug]) }}"><i class="fa fa-pencil-square"></i></a>
             </div>
         @endif

@@ -1,15 +1,10 @@
 .forum-controls {
-  background-color: darken(color(module), 1%);
-  position: absolute;
-  top: 0;
-  right: 0;
-  a {
-    margin-right: 10px;
+  a, button {
+    color: #444;
+    &:hover {
+      color: color(link);
+    }
   }
-  a:last-child {
-    margin-right: 0;
-  }
-  padding: 2px 5px;
 }
 
 

@@ -7,20 +7,18 @@
         <div class="col-sm-7">
             <h4><a href="{{ route('forum') }}">Forum</a> &raquo; <a href="{{ route('forum.category', ['forum' => $forum->slug]) }}">{{ $forum->name }}</a> &raquo; {{ $topic->title }}</h4>
         </div>
-        <div class="col-sm-5 rt">
-            @if(checkAuth())
+        <div class="col-sm-5 rt forum-controls">
+            @if(checkAdmin() or checkModerator())
                 {{--<span><i class="fa fa-newspaper-o"></i></span>--}}
                 <a title="Edit topic" href="{{ route('forum.topic.message.edit', ['forum' => $forum->slug, 'id' => $topic->id, 'topic' => $topic->slug, 'messageId' => $topic->firstPost()]) }}">
                     <i class="fa fa-pencil-square"></i>
                 </a>
 
-                @if(checkAdmin() or checkModerator())
                 <form method="post" class="inline" action="{{ route('forum.topic.message.destroy', ['forum' => $forum->slug, 'id' => $topic->id, 'topic' => $topic->slug, 'messageId' => $topic->firstPost()->id])}}">
                     <input type="hidden" name="_method" value="DELETE">
                     {!! csrf_field() !!}
-                    <button class="no-bg p0 autoh" title="Delete topic"  onclick="javascript:return confirm('Are you absolutely sure you want to remove this post?')"><i class="fa fa-trash danger"></i></button>
+                    <button class="no-bg p0 autoh" title="Delete topic"  onclick="javascript:return confirm('Are you absolutely sure you want to remove this post?')"><i class="fa fa-trash"></i></button>
                 </form>
-                @endif
             @endif
         </div>
     </div>

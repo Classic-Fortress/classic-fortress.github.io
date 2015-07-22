@@ -7,7 +7,7 @@
         <div class="col-sm-7">
             <h4><a href="{{ route('forum') }}">Forum</a> &raquo; Create forum</h4>
         </div>
-        <div class="col-sm-5 rt">
+        <div class="col-sm-5 rt forum-controls">
             <a href="{{ action('Forum\ForumController@create') }}" title="Create new forum"><i class="fa fa-plus-square"></i></a>
         </div>
     </div>

@@ -8,7 +8,7 @@
             <h4>Forum</h4>
         </div>
         @if(checkAuth())
-            <div class="col-sm-5 rt">
+            <div class="col-sm-5 rt forum-controls">
                 <a href="{{ action('Forum\ForumController@create') }}" title="Create new forum"><i class="fa fa-plus-square"></i></a>
             </div>
         @endif
