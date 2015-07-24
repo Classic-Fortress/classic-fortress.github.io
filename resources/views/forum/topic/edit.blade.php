@@ -45,7 +45,7 @@
         <div class="module clearfix">
             <div class="ontop">
                 <textarea name="body" id="body" mdpreview>{{ $message->body }}</textarea>
-                <button><i class="fa fa-send"></i> Reply</button>
+                <button><i class="fa fa-send"></i> Update</button>
                 <small>* You may use <a href="http://daringfireball.net/projects/markdown/syntax" target="_blank">Markdown</a> with <a href="https://help.github.com/articles/github-flavored-markdown" target="_blank">GitHub-flavored</a> code blocks.</small>
                 <div class="pull-right" title="Preview">
                     Preview <input type="checkbox" name="preview"/>
