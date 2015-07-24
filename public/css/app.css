@@ -8041,7 +8041,9 @@ nav {
     display: inline-block;
     font-family: bebasneue;
     font-size: 40px;
-    padding-left: 10px; }
+    padding-left: 10px;
+    color: #fcca93;
+    color: #fcca93; }
     nav .logo .classic {
       color: #c57c38; }
   nav .top-menu {

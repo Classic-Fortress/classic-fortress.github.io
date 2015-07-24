@@ -1,6 +1,6 @@
 <nav class="clearfix">
     <div class="nav-content">
-        <div class="logo pull-left"><span class="classic">classic</span> fortress</div>
+        <a href="/" class="logo pull-left"><span class="classic">classic</span> fortress</a>
         <ul class="top-menu pull-left">
             <li class="active" data-page="home">
                 <a href="/">Home</a>
