@@ -13,7 +13,7 @@
                 <a class="toggle-wiki-sidebar" title="Wiki Menu"><i class="fa fa-bars"></i></a>
             </div>
         </div>
-        <div class="wiki-sidebar hidden" markdown>
+        <div class="wiki-sidebar hidden" markdown-html>
             {!! str_replace('**[Go to front page](Home)**','',file_get_contents('https://raw.githubusercontent.com/wiki/Classic-Fortress/server-qwprogs/_Sidebar.md')) !!}
         </div>
         <div markdown>{!! $pageContent !!}</div>

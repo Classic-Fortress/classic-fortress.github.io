@@ -10818,6 +10818,12 @@ module.exports = function ($) {
             $(element).html(marked($(element).text(), { gfm: true }));
         });
     }
+
+    if ($('[markdown-html]').length) {
+        $.each($('[markdown-html]'), function (i, element) {
+            $(element).html(marked($(element).html(), { gfm: true }));
+        });
+    }
 };
 
 },{"marked":3}],10:[function(require,module,exports){

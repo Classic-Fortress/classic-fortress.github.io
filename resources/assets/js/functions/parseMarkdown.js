@@ -7,4 +7,10 @@ module.exports = (function($) {
         })
     }
 
+    if ($('[markdown-html]').length) {
+        $.each($('[markdown-html]'), function (i, element) {
+            $(element).html(marked($(element).html(), {gfm: true}));
+        })
+    }
+
 });
