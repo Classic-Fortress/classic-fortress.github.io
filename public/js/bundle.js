@@ -10815,7 +10815,7 @@ module.exports = function ($) {
 
     if ($('[markdown]').length) {
         $.each($('[markdown]'), function (i, element) {
-            $(element).html(marked($(element).html(), { gfm: true }));
+            $(element).html(marked($(element).text(), { gfm: true }));
         });
     }
 };
